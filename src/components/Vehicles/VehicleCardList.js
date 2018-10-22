@@ -8,6 +8,7 @@ const VehicleCardList = ({ vehicles }) => {
                 return (
                     <VehicleCard key={vehicles[i].url}
                                 name={vehicles[i].name}
+                                model={vehicles[i].model}
                                 cost_in_credits={vehicles[i].cost_in_credits}
                                 max_atmosphering_speed={vehicles[i].max_atmosphering_speed} />
                 );
